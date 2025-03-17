@@ -22,7 +22,7 @@ const CellsSection = () => {
         <ParallaxProvider>
             <div className="cells">
                 <div className="cells__content-wrapper">
-                    <div className="image-wrapper">
+                    <div className="image-wrapper no-event">
                         <img src={young_salvador} alt="young_salvador" />
                     </div>
                     <div className="cells__text-container">

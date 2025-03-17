@@ -1,5 +1,5 @@
 import "./IntroSection.scss";
-import dali_sitting from '../../assets/img/dali_sitting.jpg'
+import dali_sitting from '../../assets/img/dali_sitting.png'
 
 const IntroSection = () => {
     return (
@@ -34,7 +34,7 @@ const IntroSection = () => {
                     </p>
                 </div>
             </div>
-            <div className="intro__image-wrapper">
+            <div className="intro__image-wrapper no-event">
               <img src={dali_sitting} alt="dali sitting" />
             </div>
         </div>

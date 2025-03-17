@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&display=swap');
 
+.no-event{
+    pointer-events: none;
+    user-select: none;
+}
+
 $black: #323232;
 
 :root {
@@ -9,7 +14,8 @@ $black: #323232;
     font-weight: 300;
     color: $black;
     border-color: $black;
-    background-color: #121212;
+    background-image: url(assets/bg/main-background.jpg);
+    background-size: 40%;
     scroll-padding-top: 10%;
     scroll-behavior: smooth;
 

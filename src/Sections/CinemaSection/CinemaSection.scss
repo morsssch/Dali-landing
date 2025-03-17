@@ -69,6 +69,7 @@
             left: 50%;
             transform: translate(-50%, -50%);
             object-fit: cover;
+            filter: brightness(2);
 
             &::-webkit-media-controls-pip-button {
                 display: none;
@@ -88,17 +89,17 @@
     }
 
     @keyframes light {
-        0%         { background-color: rgba(255, 255, 255, 0.75); }
-        12%        { background-color: rgba(255, 255, 255, 0.72); }
+        0%         { background-color: rgba(255, 255, 255, 0.85); }
+        12%        { background-color: rgba(255, 255, 255, 0.82); }
 
-        18%        { background-color: rgba(255, 255, 255, 0.75); }
-        46%        { background-color: rgba(255, 255, 255, 0.72); }
+        18%        { background-color: rgba(255, 255, 255, 0.85); }
+        46%        { background-color: rgba(255, 255, 255, 0.82); }
 
-        53%        { background-color: rgba(255, 255, 255, 0.75); }
-        78%        { background-color: rgba(255, 255, 255, 0.72); }
+        53%        { background-color: rgba(255, 255, 255, 0.85); }
+        78%        { background-color: rgba(255, 255, 255, 0.82); }
 
-        80%        { background-color: rgba(255, 255, 255, 0.75); }
-        100%       { background-color: rgba(255, 255, 255, 0.72); }
+        80%        { background-color: rgba(255, 255, 255, 0.85); }
+        100%       { background-color: rgba(255, 255, 255, 0.82); }
     }
 
     @keyframes projectorLight {
