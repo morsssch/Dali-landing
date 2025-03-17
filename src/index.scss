@@ -10,6 +10,8 @@ $black: #323232;
     color: $black;
     border-color: $black;
     background-color: #121212;
+    scroll-padding-top: 10%;
+    scroll-behavior: smooth;
 
     a {
         color:  $black;

@@ -19,4 +19,10 @@ export default defineConfig({
             input: ["src/assets/img", "src/assets/bg"],
         }),
     ],
+
+    server: {
+        mimeTypes: {
+            js: "application/javascript",
+        },
+    },
 });

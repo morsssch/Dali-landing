@@ -3,7 +3,7 @@ import cinemaVideo from "../../assets/vid/cinema.mp4";
 
 const CinemaSection = () => {
     return (
-        <div className="cinema">
+        <div className="cinema" id="cinema">
             <div className="cinema__wrapper">
                 <div className="cinema__video">
                     <video

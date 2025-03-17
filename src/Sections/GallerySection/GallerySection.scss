@@ -1,12 +1,44 @@
 .gallery {
     margin-top: 35em;
     max-width: 1510px;
+    width: 100%;
+    
+    &__text-container {
+        margin: 0 2.75em;
+    }
+
     &__p-container {
         display: flex;
         justify-content: space-between;
         
         .text {
-            max-width: 42.75em;
+            max-width: 34.4em;
+        }
+    }
+
+    &__paintings-container {
+        display: grid;
+        background-image: url('../../assets/bg/gallery-background.png');
+        width: 100%;
+        padding: 112px 0;
+        margin-top: 6.25em;
+        border-radius: 5px;
+        grid-template-columns: repeat(auto-fill, minmax(503.3px, 1fr));
+        justify-content: center;
+
+        [class^="painting"] {
+            margin: auto;
+            padding: 20px;
+            cursor: pointer;
+
+            img {
+                transition: transform 0.15s ease-in-out;
+                box-shadow: 0 15px 10px -5px rgba(0,0,0,0.31);
+            }
+            
+            :hover {
+                transform: rotate(-3deg);
+            }
         }
     }
 }

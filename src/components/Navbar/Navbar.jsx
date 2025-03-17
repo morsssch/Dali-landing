@@ -4,10 +4,10 @@ import './Navbar.scss';
 const Navbar = () => {
   return (
     <div className='navbar'>
-        <a href="#">О художнике</a>
-        <a href="#">Образование</a>
-        <a href="#">Кинематограф</a>
-        <a href="#">Театр творчества</a>
+        <a href="#intro">О художнике</a>
+        <a href="#education">Образование</a>
+        <a href="#cinema">Кинематограф</a>
+        <a href="#gallery">Театр творчества</a>
     </div>
   );
 };

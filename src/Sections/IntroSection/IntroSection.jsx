@@ -3,7 +3,7 @@ import dali_sitting from '../../assets/img/dali_sitting.jpg'
 
 const IntroSection = () => {
     return (
-        <div className="intro">
+        <div className="intro" id="intro">
             <div className="intro__text-wrapper">
                 <div className="intro__text-container">
                     <h2 className="title">Биография</h2>

@@ -2,7 +2,7 @@ import "./EducationSection.scss";
 
 const EducationSection = () => {
     return (
-        <div className="education">
+        <div className="education" id="education">
             <div className="education__text-container">
                 <h2 className="title">Образование</h2>
                 <p className="text">
