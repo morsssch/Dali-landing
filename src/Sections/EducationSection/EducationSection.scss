@@ -1,0 +1,15 @@
+.education {
+    display: flex;
+    margin-top: 28.125em;
+    color: #ffffff;
+    width: 94.375em;
+    height: 35.3125em;
+    align-items: center;
+    background-image: url(../../assets/img/train.png);
+    background-repeat: no-repeat;
+
+    &__text-container {
+        max-width: 28.125em;
+        margin-left: 2.5em;
+    }
+}

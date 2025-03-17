@@ -1,0 +1,12 @@
+.gallery {
+    margin-top: 35em;
+    max-width: 1510px;
+    &__p-container {
+        display: flex;
+        justify-content: space-between;
+        
+        .text {
+            max-width: 42.75em;
+        }
+    }
+}

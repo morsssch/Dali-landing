@@ -1,0 +1,14 @@
+.intro {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+
+    &__text-wrapper {
+        max-width: 31.25em;
+    }
+
+    &__text-container:first-child {
+        margin-bottom: 50px;
+    }
+}

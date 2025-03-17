@@ -1,0 +1,11 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.6875em 2.1875em;
+    border-top: 2px solid;
+    border-bottom: 2px solid;
+
+    a {
+        text-decoration: none;
+    }   
+}
