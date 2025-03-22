@@ -57,7 +57,7 @@ const CellsSection = () => {
                                     alt="cell"
                                     style={{
                                         position: "absolute",
-                                        transform: `translate(${cell.x}px, ${cell.y}px)`,
+                                        transform: `translate(${cell.x * Math.min(1, (window.innerWidth / 1920))}px, ${cell.y}px)`,
                                     }}
                                 />
                             </Parallax>

@@ -57,3 +57,19 @@
         z-index: -1;
     }
 }
+
+@media (max-width: 1255px) {
+    .tear__bottom {
+        bottom: 136em;
+        
+        &::before {
+            content: "";
+            position: absolute;
+            width: 100%;
+            top: 100px;
+            bottom: -147.5em;
+            background-color: #ffffff;
+            z-index: -1;
+        }
+    }
+}

@@ -1,3 +1,4 @@
+export { default as GalleryPopup } from "./components/GalleryPopup/GalleryPopup";
 export { default as Navbar } from "./components/Navbar/Navbar";
 export { default as IntroSection } from "./Sections/IntroSection/IntroSection";
 export { default as EducationSection } from "./Sections/EducationSection/EducationSection";

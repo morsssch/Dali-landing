@@ -1,0 +1,50 @@
+.gallery-popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.8);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 999;
+
+    .gallery-popup__content {
+        position: relative;
+        display: flex;
+        justify-content: space-around;
+        padding: 60px;
+        background-color: #FFFFFF;
+        border-radius: 5px;
+        max-height: 75vh;
+        align-items: center;
+        gap: 40px;
+    }
+
+    &__image-container {
+        display: inline-block;
+        max-width: max-content;
+        max-height: max-content;
+    
+        img {
+            display: block;
+            max-width: 40vw;
+            max-height: 75vh; 
+            object-fit: contain;
+            border-radius: 5px;
+        }
+    }
+
+    &__text-container {
+        max-width: 40vw;
+    }
+
+    button {
+        all: unset;
+        cursor: pointer;
+        position: absolute;
+        right: 20px;
+        top: 20px;
+    }
+}

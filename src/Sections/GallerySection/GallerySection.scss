@@ -1,6 +1,5 @@
 .gallery {
     margin-top: 35em;
-    max-width: 1510px;
     width: 100%;
     
     &__text-container {
@@ -10,6 +9,7 @@
     &__p-container {
         display: flex;
         justify-content: space-between;
+        gap: 20px;
         
         .text {
             max-width: 34.4em;
@@ -17,20 +17,23 @@
     }
 
     &__paintings-container {
-        display: grid;
+        display: flex;
+        position: relative;
+        flex-wrap: wrap;
         background-image: url('../../assets/bg/gallery-background.png');
         width: 100%;
-        padding: 112px 0;
+        padding: 7.5% 0;
         margin-top: 6.25em;
         border-radius: 5px;
-        grid-template-columns: repeat(auto-fill, minmax(503.3px, 1fr));
         justify-content: center;
+        align-items: center;
 
         [class^="painting"] {
             margin: auto;
-            padding: 20px;
+            padding: 1.5vw;
             cursor: pointer;
             -webkit-user-drag: none;
+            flex: 0 1 25%;
             
             img {
                 transition: transform 0.15s ease-in-out;
@@ -42,4 +45,8 @@
             }
         }
     }
+}
+
+@media (max-width: 1255px) { 
+
 }
