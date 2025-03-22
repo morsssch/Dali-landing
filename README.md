@@ -5,7 +5,7 @@
 ## Установка:
    ```bash
    git clone https://github.com/morsssch/Dali-landing.git
-   npm install
    cd Dali-landing
+   npm install
    npm run build
    npm run preview
